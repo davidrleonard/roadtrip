@@ -7,7 +7,7 @@ Roadtrip is a way to explore layers of content in photos. It's a project of [#SN
 
 ## Why we're making it
 
-We want readers to be able to graphically peel back the layers of a photo (or series of photos).
+We want readers to be able to graphically peel back the layers of a photo (or series of photos). We also want to allow editors and photographers to add deeper layers of context 
 
 ## How to deploy it locally
 
@@ -22,7 +22,7 @@ Coming soon.
 * Ashlyn Still - [@ashlynstill](http://github.com/ashlynstill)
 * Chloe Magner - [@missmagner](http://github.com/missmagner)
 * David Leonard - [@davidrleonard](http://github.com/davidrleonard)
-* Emily Withrow
+* Emily Withrow - [@emilywithrow](http://github.com/emilywithrow)
 * Crystal Gammon
 
 ## License

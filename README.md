@@ -7,11 +7,26 @@ Roadtrip is a way to explore layers of content in photos. It's a project of [#SN
 
 ## Why we're making it
 
-We want readers to be able to graphically peel back the layers of a photo (or series of photos). We also want to allow editors and photographers to add deeper layers of context 
+We want readers to be able to graphically peel back the layers of a photo (or series of photos). We also want to allow editors and photographers to add deeper layers (aka dimensions) to their photos.
 
 ## How to deploy it locally
 
-Coming soon.
+The app builds with the following, which you'll need installed:
+* [Jekyll 2.5.3](http://jekyllrb.com/) - [Install instructions](https://github.com/codeforamerica/howto/blob/master/Jekyll.md)
+* SASS
+
+Pull it down from Github:
+```
+$ git clone https://github.com/davidrleonard/roadtrip.git
+$ cd roadtrip
+```
+
+Fire up Jekyll:
+```
+$ jekyll serve --watch
+```
+
+Open up [http://0.0.0.0:4000](http://0.0.0.0:4000) in your browser of choice and rejoice.
 
 ## How to push it to the cloud
 
@@ -23,7 +38,7 @@ Coming soon.
 * Chloe Magner - [@missmagner](http://github.com/missmagner)
 * David Leonard - [@davidrleonard](http://github.com/davidrleonard)
 * Emily Withrow - [@emilywithrow](http://github.com/emilywithrow)
-* Crystal Gammon
+* Crystal Gammon - [@crystalgammon](http://github.com/crystalgammon)
 
 ## License
 

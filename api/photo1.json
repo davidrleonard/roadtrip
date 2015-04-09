@@ -9,43 +9,60 @@
   "narratives": [
     {
       "metadata": {
-        "narrative_thread": "Bison are an amazing animal that is changing everything.",
+        "narrative_thread": "...because bisons grazing habits help prairies grow.",
         "photog_name": "Anthony Souffle",
         "photo_org": "Chicago Tribune",
         "photo_url": "http://www.trbimg.com/img-54944fda/turbine/chi-bison12souffle-ct0024841582-20141211/1150/1150x647",
-        "caption_content": "A bison peers from the long grass at the Nachusa Grasslands prairie restoration site on Dec. 12, 2014, in Franklin Grove, Ill. Bill Kleiman, the project director, says the bison have done very well since their arrival in early October."
+        "caption_content": " "
       },
       "layers": [
         {
           "rank": 1,
           "type": "history",
           "content": {
-            "question": "How long have bison been absent from the landscape?",
-            "answer": "For almost 1,000 years, bison have been absent"
+            "question": "Why does the prairie need help?",
+            "answer": "During WWII, it served as an arsenal and produced 1 billion lbs. of TNT."
           }
         },
         {
           "rank": 2,
-          "type": "quote",
+          "type": "trivia",
           "content": {
-            "quote_text": "Bison are changing... everything!",
-            "quote_attribution": "John Smith, Bison Enthusiast"
+            "question": "What's the difference between bison and bufalo?",
+            "answer": "Bison can help restore native grasses and flowering plants that will provide a better habitat for grassland birds."
           }
         },
         {
           "rank": 3,
           "type": "number",
           "content": {
-            "number": 300,
-            "description_text": "The number of bison in Chicago"
+            "number": 20,
+            "description_text": "Number of years it will take to evaluate whether the bisons have improved the diversity of native plants and birds."
           }
         },
         {
           "rank": 4,
           "type": "location",
           "content": {
-            "lat": 39.44,
-            "lon": 23.49
+            "description_text": "Midewin National Tallgrass Prairie, located about 50 miles southwest of Chicago.",
+            "lat": 41.6,
+            "lon": -88.0
+          }
+        },
+        {
+          "rank": 5,
+          "type": "backstory",
+          "content": {
+            "question": "Where else do the bufalo roam?",
+            "answer": "In October, The Nature Conservancy brought 30 bison to Nachusa Grasslands to help with prairie restoration--the first conservation herd in Illinois."
+          }
+        },
+        {
+          "rank": 6,
+          "type": "quote",
+          "content": {
+            "quote_text": "They've got a sweet tooth.",
+            "quote_attribution": "Jeff Walk, director of science for the Illinois chapter of The Nature Conservancy"
           }
         }
       ]

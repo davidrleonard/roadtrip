@@ -1,0 +1,71 @@
+{
+  "key": "http://www.chicagotribune.com/news/ct-bison-return-illinois-met-20141006-story.html#page=1",
+  "article": {
+    "headline": "As praries make a comback, bison roam",
+    "url": "http://www.chicagotribune.com/news/ct-bison-return-illinois-met-20141006-story.html#page=1",
+    "author_name": "Ted Gregory",
+    "author_title": "Tribune reporter"
+  },
+  "narratives": [
+    {
+      "metadata": {
+        "narrative_thread": "...because bisons grazing habits help prairies grow.",
+        "photog_name": "Anthony Souffle",
+        "photo_org": "Chicago Tribune",
+        "photo_url": "http://www.trbimg.com/img-54944fda/turbine/chi-bison12souffle-ct0024841582-20141211/1150/1150x647",
+        "caption_content": " "
+      },
+      "layers": [
+        {
+          "rank": 1,
+          "type": "history",
+          "content": {
+            "question": "Why does the prairie need help?",
+            "answer": "During WWII, it served as an arsenal and produced 1 billion lbs. of TNT."
+          }
+        },
+        {
+          "rank": 2,
+          "type": "trivia",
+          "content": {
+            "question": "What's the difference between bison and bufalo?",
+            "answer": "Bison can help restore native grasses and flowering plants that will provide a better habitat for grassland birds."
+          }
+        },
+        {
+          "rank": 3,
+          "type": "number",
+          "content": {
+            "number": 20,
+            "description_text": "Number of years it will take to evaluate whether the bisons have improved the diversity of native plants and birds."
+          }
+        },
+        {
+          "rank": 4,
+          "type": "location",
+          "content": {
+            "description_text": "Midewin National Tallgrass Prairie, located about 50 miles southwest of Chicago.",
+            "lat": 41.6,
+            "lon": -88.0
+          }
+        },
+        {
+          "rank": 5,
+          "type": "backstory",
+          "content": {
+            "question": "Where else do the bufalo roam?",
+            "answer": "In October, The Nature Conservancy brought 30 bison to Nachusa Grasslands to help with prairie restoration--the first conservation herd in Illinois."
+          }
+        },
+        {
+          "rank": 6,
+          "type": "quote",
+          "content": {
+            "quote_text": "They've got a sweet tooth.",
+            "quote_attribution": "Jeff Walk, director of science for the Illinois chapter of The Nature Conservancy"
+          }
+        }
+      ]
+    }
+  ]
+}

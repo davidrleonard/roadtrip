@@ -1,35 +1,53 @@
 {
-  "metadata": {
-    "photog_name": "Anthony Souffle",
-    "photo_org": "Chicago Tribune",
-    "article_url": "http://www.chicagotribune.com/news/local/breaking/chi-bison-illinois-20150328-20150328-story.html",
-    "photo_url": "http://www.trbimg.com/img-54944fd9/turbine/chi-bison12souffle-ct0024841857-20141211/750/750x422",
-    "caption_content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, quam!"
+  "key": "http://www.chicagotribune.com/news/ct-bison-return-illinois-met-20141006-story.html#page=1",
+  "article": {
+    "headline": "As praries make a comback, bison roam",
+    "url": "http://www.chicagotribune.com/news/ct-bison-return-illinois-met-20141006-story.html#page=1",
+    "author_name": "Ted Gregory",
+    "author_title": "Tribune reporter"
   },
-  "layers": {
+  "narratives" : {
     [
       {
-        "rank": 1,
-        "type": "quote",
-        "content": {
-          "words": "Lorem ipsum dolor sit amet, consectetur adipisicing elit conoque serif dolores sit.",
-          "attribution_name": "John Smith",
-          "attribution_org": "Director, Bison Foundation"
-      },
-      {
-        "rank": 2,
-        "type": "number",
-        "content": {
-          "number": "22",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus debitis, porro laudantium animi ipsa. Ratione numquam explicabo aspernatur nesciunt, quam."
-      },
-      {
-        "rank": 3,
-        "type": "comment",
-        "content": {
-          "words": "Lorem ipsum dolor sit amet, consectetur adipisicing elit conoque serif dolores sit.",
-          "attribution_name": "John Smith",
-          "attribution_org": "Director, Bison Foundation"
+        "metadata": {
+          "narrative_thread": "Bison are an amazing animal that is changing everything.",
+          "photog_name": "Anthony Souffle",
+          "photo_org": "Chicago Tribune",
+          "photo_url": "http://www.trbimg.com/img-54944fda/turbine/chi-bison12souffle-ct0024841582-20141211/1150/1150x647",
+          "caption_content": "A bison peers from the long grass at the Nachusa Grasslands prairie restoration site on Dec. 12, 2014, in Franklin Grove, Ill. Bill Kleiman, the project director, says the bison have done very well since their arrival in early October."
+        },
+        "layers": {
+          [
+            {
+              "rank": 1,
+              "type": "history",
+              "content": {
+                "question": "How long have bison been absent from the landscape?",
+                "answer": "For almost 1,000 years, bison have been absent"
+            },
+            {
+              "rank": 2,
+              "type": "quote",
+              "content": {
+                "quote_text": "Bison are changing... everything!",
+                "quote_attribution": "John Smith, Bison Enthusiast"
+            },
+            {
+              "rank": 3,
+              "type": "number",
+              "content": {
+                "number": 300,
+                "description_text": "The number of bison in Chicago"
+            },
+            {
+              "rank": 4,
+              "type": "location",
+              "content": {
+                "lat": 39.44,
+                "lon": 23.49
+            },
+          ]
+        }
       }
     ]
   }

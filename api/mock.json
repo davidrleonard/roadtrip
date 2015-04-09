@@ -15,7 +15,6 @@
           "words": "Lorem ipsum dolor sit amet, consectetur adipisicing elit conoque serif dolores sit.",
           "attribution_name": "John Smith",
           "attribution_org": "Director, Bison Foundation"
-        }
       },
       {
         "rank": 2,
@@ -23,7 +22,6 @@
         "content": {
           "number": "22",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus debitis, porro laudantium animi ipsa. Ratione numquam explicabo aspernatur nesciunt, quam."
-        }
       },
       {
         "rank": 3,
@@ -32,7 +30,6 @@
           "words": "Lorem ipsum dolor sit amet, consectetur adipisicing elit conoque serif dolores sit.",
           "attribution_name": "John Smith",
           "attribution_org": "Director, Bison Foundation"
-        }
       }
     ]
   }

@@ -33,9 +33,9 @@ var getParam = function(query,wanted) {
 
 var buildArticle = function(article) {
   // Build out our article template here
-  
+
   return "";
-}
+};
 
 
 // =====

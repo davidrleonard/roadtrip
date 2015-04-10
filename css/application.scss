@@ -7,6 +7,130 @@
 // Base file for our app. Imports components we need from _sass.
 // =================
 
+body {
+	font-family:'Lato',san-serif;
+}
+
+.container{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+.col-sm-8, .col-sm-4 {
+	padding:0;
+}
+
+.main-image-box {
+	width:100%;
+	float:left;
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-attachment: fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.right-rail {
+	float:left;
+	width:100%;
+	border-left:1px solid #999;
+	display:table;
+	vertical-align:bottom;
+}
+
+.right-rail .tab {
+	font-size:28px;
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+	margin-top:-1px;
+}
+.right-rail .tab:last-child {
+	border-bottom:none;
+}
+.right-rail{
+	background-color:rgba(242,242,242,1.0);
+}
+
+.right-rail .tab, .right-rail .tab-content  {
+	padding:5px 20px;
+}
+
+.tab {
+	cursor:pointer;
+	font-size:25px;
+	background-color: #cecece;
+}
+
+.tab-content {
+	display:none;
+}
+
+.tab-content.default{
+	display:block;
+}
+
+.tab-content p {
+	font-size: 18px;
+}
+.narrative p{
+	font-size:45px
+}
+
+.icon {
+	width:30px;
+	display:inline-block;
+	margin-right:15px;
+	text-align:center;
+}
+
+.tab-content {
+	overflow:scroll;
+}
+
+.tab:first-child, .tab-content:first {
+	background-color:rgba(242,242,242,1.0);
+}
+
+//layer styles inside tabs
+
+p.question {
+	margin-top:20px;
+	font-size:32px;
+}
+p.answer {
+	font-size:24px;
+}
+
+
+.map {
+	border:1px solid #111;
+	margin:20px auto;
+}
+p.map-descrip {
+	margin-top:10px;
+	font-size:24px;
+}
+
+p.quote {
+	font-size:60px;
+}
+p.quote-attr {
+	margin-left:50px;
+	font-size:20px;
+}
+
+p.big-num {
+	text-align:center;
+	font-size:120px;
+}
+
+p.num-descrip{
+	font-size:24px;
+}
+
 
 
 // form styles

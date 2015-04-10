@@ -7,6 +7,79 @@
 // Base file for our app. Imports components we need from _sass.
 // =================
 
+body {
+	font-family:'Lato',san-serif;
+}
+
+.main-image-box {
+	width:75%;
+	float:left;
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-attachment: fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.right-rail {
+	float:left;
+	width:25%;
+	border-left:1px solid #999;
+	display:table;
+	vertical-align:bottom;
+}
+
+.right-rail .tab{
+	font-size:28px;
+	border-top:1px solid #999;
+}
+.right-rail .tab:first-child {
+	border:none;
+}
+.right-rail{
+	background-color:rgba(242,242,242,1.0);
+}
+.right-rail .tab, .right-rail .tab-content  {
+	padding:5px 20px;
+}
+
+.tab {
+	cursor:pointer;
+	font-size:25px;
+}
+
+.tab-content {
+	display:none;
+}
+
+.tab-content.default{
+	display:block;
+}
+
+.tab-content p {
+	font-size: 18px;
+}
+.narrative p{
+	font-size:45px
+}
+
+.icon {
+	width:30px;
+	display:inline-block;
+	margin-right:15px;
+	text-align:center;
+}
+
+.tab-content {
+	overflow:scroll;
+}
+
+.tab:first-child, .tab-content:first {
+	background-color:rgba(242,242,242,1.0);
+}
+
 
 
 // form styles

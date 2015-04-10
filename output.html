@@ -1,0 +1,181 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Roadtrip</title>
+    <link rel="stylesheet" href="/css/dist/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/dist/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/application.css">
+  </head>
+  
+  <body>
+
+    
+
+    <div id="article">
+        
+      {% for d in site.data.mock.narratives %}
+        <div class="main-image-box" id="image0" style="background-image:url('{{ d.metadata.photo_url }}')">
+        </div>
+        <div class="right-rail" id="accordion">
+                
+          <div class="tab">
+            <span class="icon"><i class="fa fa-compass"></i></span> Story
+          </div>
+          <div class="tab-content narrative default">
+            <p>{{ d.metadata.narrative_thread }}</p>
+          </div>
+
+          <div class="tab">
+            <span class="icon"><i class="fa fa-university"></i></span> History
+          </div>
+          <div class="tab-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+          
+          <div class="tab">
+            <span class="icon"><i class="fa fa-map-marker"></i></span> Location
+          </div>
+          <div class="tab-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+
+          <div class="tab">
+            <span class="icon"><i class="fa fa-gamepad"></i></span> Trivia
+          </div>
+          <div class="tab-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+
+          <div class="tab">
+            <span class="icon"><i class="fa fa-newspaper-o"></i></span> Background
+          </div>
+          <div class="tab-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+
+          <div class="tab">
+            <span class="icon"><i class="fa fa-quote-left"></i></span> Well-said
+          </div>
+          <div class="tab-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+
+          <div class="tab">
+            <span class="icon"><i class="fa fa-bar-chart"></i></span> Numbers
+          </div>
+          <div class="tab-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+        </div>
+        {% endfor %}
+    </div>
+
+
+
+
+  </body>
+
+  </body>
+
+  <!-- Load our scripts -->
+  <script src="/js/vendor/jquery-1.11.2.js"></script>
+  <script src="/js/vendor/bootstrap.min.js"></script>
+  <script src="/js/vendor/underscore-min.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <!--<script src="/js/application.js"></script>-->
+
+  <script type="text/javascript">
+
+
+  var setHeight = function() {
+    var height = $(window).height();
+    window.h = height;
+
+  };
+
+  $(window).on('resize',function(){
+      setHeight();
+  });
+
+  setHeight();
+   
+
+  $('.main-image-box').each(function(){
+    $(this).height(h);
+  });
+
+  $('.right-rail').each(function(){
+    $(this).height(h);
+  });
+
+  // $('.default').height((h/2)-50);
+
+  // $('.tab-content:first-child .ui-accordion-content-active').height(h/2);
+
+  $('.tab').each(function(){
+    var l = $('.tab').length-1; //minus 1 for the tab
+    $(this).css({'min-height': (h/2)/l - 5 });
+    $('.tab-content').height(h/2 - $(this).height());//1px for the border
+  });
+
+
+  $('#accordion').find('.tab').click(function(){
+      //Expand or collapse this panel
+
+      $(this).next().slideToggle('fast').addClass('default');
+
+      //Hide the other panels
+      $(".tab-content").not($(this).next()).slideUp('fast');
+
+  });
+
+
+
+  </script>
+
+
+</html>

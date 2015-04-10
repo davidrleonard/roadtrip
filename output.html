@@ -138,7 +138,6 @@
     var height = $(window).height();
     $('.main-image-box').height(height);
     $('.right-rail').height(height);
-
     return window.h = height;
 
   };
@@ -151,9 +150,9 @@
 
 
   $('.tab').each(function(){
-    var l = $('.tab').length-1; //minus 1 for the tab
-    $(this).css({'min-height': (h/2)/l - 2.5 });
-    $('.tab-content').height(h/2 - $(this).height());//1px for the border
+    var l = $('.tab').length-1; //minus 1 for the open tab
+    $(this).css({'min-height': (h/2)/l - 2.5 }); // 2.5 accounts for padding
+    $('.tab-content').height(h/2 - $(this).height());
   });
 
 

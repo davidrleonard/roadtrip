@@ -1,4 +1,4 @@
-{
+{ 
   "key": "http://www.chicagotribune.com/news/ct-bison-return-illinois-met-20141006-story.html#page=1",
   "article": {
     "headline": "As praries make a comback, bison roam",
@@ -9,10 +9,10 @@
   "narratives": [
     {
       "metadata": {
-        "narrative_thread": "...because bisons grazing habits help prairies grow.",
+        "narrative_thread": "...because the grazing habits of bison help prairies grow.",
         "photog_name": "Anthony Souffle",
         "photo_org": "Chicago Tribune",
-        "photo_url": "http://www.trbimg.com/img-54944fda/turbine/chi-bison12souffle-ct0024841582-20141211/1150/1150x647",
+        "photo_url": "https://dl.dropboxusercontent.com/u/17640035/bison08_web.jpg",
         "caption_content": " "
       },
       "layers": [
@@ -28,8 +28,8 @@
           "rank": 2,
           "type": "trivia",
           "content": {
-            "question": "What's the difference between bison and bufalo?",
-            "answer": "Bison can help restore native grasses and flowering plants that will provide a better habitat for grassland birds."
+            "question": "What's the difference between bison and buffalo?",
+            "answer": "Bison have larger shoulder humps and massive heads and live only in North America."
           }
         },
         {
@@ -37,7 +37,7 @@
           "type": "number",
           "content": {
             "number": 20,
-            "description_text": "Number of years it will take to evaluate whether the bisons have improved the diversity of native plants and birds."
+            "description_text": "Number of years it will take to evaluate whether the bison have improved the diversity of native plants and birds."
           }
         },
         {
@@ -53,8 +53,8 @@
           "rank": 5,
           "type": "backstory",
           "content": {
-            "question": "Where else do the bufalo roam?",
-            "answer": "In October, The Nature Conservancy brought 30 bison to Nachusa Grasslands to help with prairie restoration--the first conservation herd in Illinois."
+            "question": "Where else do the buffalo roam?",
+            "answer": "The Nature Conservancy brought 30 bison to Nachusa Grasslands last year to help with prairie restoration; it was the first conservation herd in Illinois."
           }
         },
         {

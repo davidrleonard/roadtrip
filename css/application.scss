@@ -7,6 +7,11 @@
 // Base file for our app. Imports components we need from _sass.
 // =================
 
+// layout
+.container + .container,
+.row + .row {
+  margin-top: 2em;
+}
 
 
 // form styles
@@ -30,4 +35,8 @@
 
 .optional-form {
 	color:#aaa;
+}
+
+.opener {
+  margin-bottom: 2em;
 }

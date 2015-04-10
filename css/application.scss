@@ -11,8 +11,18 @@ body {
 	font-family:'Lato',san-serif;
 }
 
+.container{
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+
+.col-sm-8, .col-sm-4 {
+	padding:0;
+}
+
 .main-image-box {
-	width:75%;
+	width:100%;
 	float:left;
 	background-repeat: no-repeat;
 	background-position:center center;
@@ -25,22 +35,25 @@ body {
 
 .right-rail {
 	float:left;
-	width:25%;
+
 	border-left:1px solid #999;
 	display:table;
 	vertical-align:bottom;
 }
 
-.right-rail .tab{
+.right-rail .tab {
 	font-size:28px;
 	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+	margin-top:-1px;
 }
-.right-rail .tab:first-child {
-	border:none;
+.right-rail .tab:last-child {
+	border-bottom:none;
 }
 .right-rail{
 	background-color:rgba(242,242,242,1.0);
 }
+
 .right-rail .tab, .right-rail .tab-content  {
 	padding:5px 20px;
 }
@@ -48,6 +61,7 @@ body {
 .tab {
 	cursor:pointer;
 	font-size:25px;
+	background-color: #cecece;
 }
 
 .tab-content {

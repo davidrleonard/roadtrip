@@ -21,11 +21,11 @@
 
     <div id="article">
       {% for d in site.data.mock.narratives %}
-        <div class="col-sm-8">
+        <div class="col-xs-8">
           <div class="main-image-box" id="image0" style="background-image:url('{{ d.metadata.photo_url }}')">
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-xs-4">
           <div class="right-rail" id="accordion">
                   
             <div class="tab">
@@ -110,41 +110,32 @@
   <script type="text/javascript">
 
 
-  var setHeight = function() {
-    var height = $(window).height();
-    $('.main-image-box').height(height);
-    $('.right-rail').height(height);
-    return window.h = height;
-
-  };
-
   $(window).on("resize", function () {
-      setHeight();
+      var h = $(window).height(), w = $(window).width();
+      $('.main-image-box').height(h);
+      $('.right-rail').height(h);
+
+      var tabs = $('.tab').length;
+
+      var tabHeight = (h/2)/tabs-6;
+
+      $('.tab').each(function(){
+        $(this).height(tabHeight);
+        $(this).next().height((h/2)-tabHeight);
+        $('.map').height(h/3 - $(this).height());
+      });
   }).resize();
 
-
-  $('.tab').each(function(){
-    var l = $('.tab').length-1; //minus 1 for the open tab
-    $(this).css({'min-height': (h/2)/l - 2.5 }); // 2.5 accounts for padding
-    $('.tab-content').height(h/2 - $(this).height());
-    $('.map').height(h/3 - $(this).height());
-  });
 
   // map
   var map = L.map('map0');
 
   $('#accordion').find('.tab').click(function(){
-
-      $(this).next().slideToggle('fast').addClass('default');
-      $(".tab-content").not($(this).next()).slideUp('fast');
-      L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-      map.setView([41.6, -88.0], 14);
+    $(this).next().slideToggle('fast').addClass('default');
+    $(".tab-content").not($(this).next()).slideUp('fast');
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    map.setView([41.6, -88.0], 14);
   });
-
-
-
-  
-
 
 
   </script>

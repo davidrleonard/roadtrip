@@ -21,7 +21,7 @@
   mtime: 2015-04-09 14:42:18.000000000 -04:00
   deps: []
 "/Users/astill/git/roadtrip/index.html":
-  mtime: 2015-04-09 15:47:43.000000000 -04:00
+  mtime: 2015-04-10 00:05:27.000000000 -04:00
   deps: []
 "/Users/astill/git/roadtrip/js/application.js":
   mtime: 2015-04-09 14:59:19.000000000 -04:00
@@ -33,7 +33,7 @@
   mtime: 2015-04-09 12:03:05.000000000 -04:00
   deps: []
 "/Users/astill/git/roadtrip/output.html":
-  mtime: 2015-04-09 21:00:09.000000000 -04:00
+  mtime: 2015-04-10 00:15:08.000000000 -04:00
   deps: []
 "/Users/astill/git/roadtrip/js/vendor/bootstrap.min.js":
   mtime: 2015-03-16 08:42:10.000000000 -04:00
@@ -43,4 +43,7 @@
   deps: []
 "/Users/astill/git/roadtrip/js/vendor/underscore-min.js":
   mtime: 2015-04-09 14:59:19.000000000 -04:00
+  deps: []
+"/Users/astill/git/roadtrip/CNAME":
+  mtime: 2015-04-10 00:04:54.000000000 -04:00
   deps: []

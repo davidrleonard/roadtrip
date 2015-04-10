@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/dist/bootstrap.min.css">
     <link rel="stylesheet" href="/css/dist/bootstrap-theme.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/css/application.css">
   </head>
@@ -39,12 +39,8 @@
               <span class="icon"><i class="fa fa-university"></i></span> History
             </div>
             <div class="tab-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="question">Why does the prairie need help?</p>
+              <p class="answer">During WWII, it served as an arsenal and produced 1 billion lbs. of TNT.</p>
             </div>
 
             
@@ -52,12 +48,8 @@
               <span class="icon"><i class="fa fa-map-marker"></i></span> Location
             </div>
             <div class="tab-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="map-descrip">Midewin National Tallgrass Prairie, located about 50 miles southwest of Chicago.</p>
+              <div class="map" id="map0"></div>
             </div>
 
 
@@ -65,12 +57,8 @@
               <span class="icon"><i class="fa fa-gamepad"></i></span> Trivia
             </div>
             <div class="tab-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="question">What's the difference between bison and buffalo?</p>
+              <p class="answer">Bison can help restore native grasses and flowering plants that will provide a better habitat for grassland birds.</p>  
             </div>
 
 
@@ -78,12 +66,8 @@
               <span class="icon"><i class="fa fa-newspaper-o"></i></span> Background
             </div>
             <div class="tab-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="question">Where else do the buffalo roam?</p>
+              <p class="answer">In October, The Nature Conservancy brought 30 bison to Nachusa Grasslands to help with prairie restoration--the first conservation herd in Illinois.</p>  
             </div>
 
 
@@ -91,12 +75,8 @@
               <span class="icon"><i class="fa fa-quote-left"></i></span> Well-said
             </div>
             <div class="tab-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="quote">"They've got a sweet tooth."</p>
+              <p class="quote-attr">- Jeff Walk, director of science for the Illinois chapter of The Nature Conservancy</p>
             </div>
 
 
@@ -104,12 +84,8 @@
               <span class="icon"><i class="fa fa-bar-chart"></i></span> Numbers
             </div>
             <div class="tab-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="big-num">20</p>
+              <p class="num-descrip">Number of years it will take to evaluate whether the bisons have improved the diversity of native plants and birds.</p>
             </div>
 
           </div>
@@ -128,7 +104,7 @@
   <script src="/js/vendor/jquery-1.11.2.js"></script>
   <script src="/js/vendor/bootstrap.min.js"></script>
   <script src="/js/vendor/underscore-min.js"></script>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
   <!--<script src="/js/application.js"></script>-->
 
   <script type="text/javascript">
@@ -147,21 +123,27 @@
   }).resize();
 
 
-
-
   $('.tab').each(function(){
     var l = $('.tab').length-1; //minus 1 for the open tab
     $(this).css({'min-height': (h/2)/l - 2.5 }); // 2.5 accounts for padding
     $('.tab-content').height(h/2 - $(this).height());
+    $('.map').height(h/3 - $(this).height());
   });
 
+  // map
+  var map = L.map('map0');
 
   $('#accordion').find('.tab').click(function(){
 
       $(this).next().slideToggle('fast').addClass('default');
       $(".tab-content").not($(this).next()).slideUp('fast');
-
+      L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+      map.setView([41.6, -88.0], 14);
   });
+
+
+
+  
 
 
 

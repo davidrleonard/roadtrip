@@ -35,7 +35,7 @@ body {
 
 .right-rail {
 	float:left;
-
+	width:100%;
 	border-left:1px solid #999;
 	display:table;
 	vertical-align:bottom;
@@ -92,6 +92,43 @@ body {
 
 .tab:first-child, .tab-content:first {
 	background-color:rgba(242,242,242,1.0);
+}
+
+//layer styles inside tabs
+
+p.question {
+	margin-top:20px;
+	font-size:32px;
+}
+p.answer {
+	font-size:24px;
+}
+
+
+.map {
+	border:1px solid #111;
+	margin:20px auto;
+}
+p.map-descrip {
+	margin-top:10px;
+	font-size:24px;
+}
+
+p.quote {
+	font-size:60px;
+}
+p.quote-attr {
+	margin-left:50px;
+	font-size:20px;
+}
+
+p.big-num {
+	text-align:center;
+	font-size:120px;
+}
+
+p.num-descrip{
+	font-size:24px;
 }
 
 
